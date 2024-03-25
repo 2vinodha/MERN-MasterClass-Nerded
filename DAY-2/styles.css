@@ -1,0 +1,59 @@
+.container {
+    color: rgb(255, 255, 255);
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #fffbfb;
+    border-radius: 5px;
+}
+body {
+    background-image: url('fit.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #150e0e;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.customer-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 5px solid #ffffff;
+    border-radius: 3px;
+}
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    float: right;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
